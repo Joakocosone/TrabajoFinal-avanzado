@@ -8,11 +8,15 @@ body{
 }
 
 /*----------------navegador*/
-
-.menu{
+nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 30px;
+}
+.menu{
+    display:flex;
     justify-content: flex-end;
-    list-style-type: none;
     gap: 50px;
 }
 .menu-item{
@@ -25,7 +29,6 @@ body{
     align-items: center;
     border: 1px solid black;
     box-shadow: 2px 2px 0px #678983;
-    
 }
 
 /*----------------header*/
