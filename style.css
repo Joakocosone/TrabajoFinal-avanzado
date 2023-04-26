@@ -27,8 +27,7 @@ nav{
     height: 40px;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
-    box-shadow: 2px 2px 0px #678983;   
+    box-shadow: 3px 3px 0px #678983;   
 }
 a{
     color: black;
@@ -64,8 +63,74 @@ h2{
     text-shadow: 2px 2px black;
     font-size:40px ; 
     text-align: center;
-    color: #678983;
-}/*-----------logo--------*/
+    color: #678983;   
+}
+/*------tarjetas main-----*/
+.img-tarjeta{
+    width: 400px;
+}
+.contenedor-padre{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction:row;
+}
+.tarjeta{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    background-color: #E6DDC4;
+    text-align: center;
+    align-items: center;
+    border: #678983 6px solid;
+    height: 400px;
+    top: 90px;
+    bottom: 90px;
+}
+.boton-tarjeta{
+    display: flex;
+    color:#E6DDC4;
+    border-radius: 12px;
+    background-color:#181d31;
+    justify-content: center;
+    box-shadow: 2px 2px 0px #678983;
+    align-items: center;
+    width: 130px;
+    height: 30px;
+}
+.boton-tarjeta:active{
+    transform: translate(2px,2px);
+    box-shadow: none;
+}
+/*-----footer------*/
+footer{
+    display: flex;
+    align-items: center;
+    background-color: #678983;
+    position: relative;
+    top: 200px;
+    width: 2000px;
+    height: 180px;   
+}
+.h3-img-footer{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    left: 20px;
+    gap: 40px;
+    color: #181d31;
+    text-align: center;
+}
+.img-footer{
+    width: 120px;
+}
+.texto-footer{
+    position: relative;
+    left: 1000px;
+}
+
+/*-----------logo--------*/
 
 #monitor1, #monitor2,#teclado1, #teclado2{
     animation: logob ease-in 5s
