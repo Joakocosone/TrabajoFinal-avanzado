@@ -129,7 +129,50 @@ footer{
     position: relative;
     left: 1000px;
 }
+/*-------historia-------*/
 
+
+
+
+
+/*-----juego------*/
+.recuadro-drop{
+    background-color: grey;
+    border: 3px dotted whitesmoke;
+    width: 282px;
+    height: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton-reinicio-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-juego{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+.boton-reinicio{
+    color: black;
+    background-color: #E6DDC4;
+    box-shadow: 3px 3px 0px #678983;
+    border-radius: 12px;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-juego{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
 /*-----------logo--------*/
 
 #monitor1, #monitor2,#teclado1, #teclado2{
