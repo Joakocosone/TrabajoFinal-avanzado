@@ -139,11 +139,21 @@ footer{
 .recuadro-drop{
     background-color: grey;
     border: 3px dotted whitesmoke;
-    width: 282px;
-    height: 470px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.recuadro1{
+    width: 310px;
+    height: 502px;
+}
+.recuadro2{
+    width: 279px;
+    height: 503px;
+}
+.recuadro3{
+    width: 258px;
+    height: 504px;
 }
 .boton-reinicio-div{
     display: flex;
@@ -166,12 +176,17 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    top: 80px;
 }
 .section-juego{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+}
+.boton-reinicio:active{
+    box-shadow: none;
+    transform: translate(3px,3px);
 }
 /*-----------logo--------*/
 
