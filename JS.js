@@ -14,6 +14,7 @@ function playVideo() {
 function pauseVideo() {
   video.pause();
 }
+
  */
 var playButton = document.querySelector(".play");
 var pauseButton = document.querySelector(".pause");
