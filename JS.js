@@ -26,3 +26,14 @@ playButton.addEventListener("click",()=>{
 pauseButton.addEventListener("click",()=>{
     video.pause()
 })
+/*
+setInterval(()=>{
+  let  tiempoActual= video.currentTime.toFixed(0);
+  document.querySelector(".duracion-video").textContent= `segundos transcurridos=> ${tiempoActual}`
+})*/
+setInterval(() => {
+  let tiempoActual = video.currentTime.toFixed(0);
+  let minutos = Math.floor(tiempoActual /60); 
+  let segundos = tiempoActual %60; 
+  document.querySelector(".duracion-video").textContent = `Tiempo transcurrido: ${minutos}:${segundos}`;
+});
