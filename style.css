@@ -224,10 +224,10 @@ footer{
 /*-----------logo--------*/
 
 #monitor1,#teclado1{
-    animation: logob ease-in 5s
+    animation: logob ease-in 3s
 }
  #monitor2,#teclado2{
-    animation: logob ease-in 8s
+    animation: logob ease-in 5.5s
  }
 @keyframes logob{
     0%{
