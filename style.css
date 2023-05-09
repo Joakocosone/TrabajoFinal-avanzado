@@ -6,7 +6,11 @@
 body{
     background-color: #181d31;
 }
-
+.centrado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /*-----------navegador-----------*/
 nav{
     display: flex;
@@ -21,12 +25,12 @@ nav{
 }
 .menu-item{
     display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 12px;
     background-color: #E6DDC4;
     width: 105px;
     height: 40px;
-    justify-content: center;
-    align-items: center;
     box-shadow: 3px 3px 0px #678983;   
 }
 a{
@@ -190,13 +194,13 @@ footer{
 }
 .boton-reinicio-div{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 .main-juego{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     gap: 2px;
 }
 .boton-reinicio{
