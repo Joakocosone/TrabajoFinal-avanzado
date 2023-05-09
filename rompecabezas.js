@@ -5,21 +5,6 @@ let recuadro1=document.querySelector(".recuadro1")
 let recuadro2=document.querySelector(".recuadro2")
 let recuadro3=document.querySelector(".recuadro3")
 
-img1.addEventListener("dragstart",(event)=>{
-    let Info= event.target.src;
-    event.dataTransfer.setData("text",Info)
-    console.log(Info)
-})
-img2.addEventListener("dragstart",(event)=>{
-    let Info= event.target.src;
-    event.dataTransfer.setData("text",Info)
-    console.log(Info)
-})
-img3.addEventListener("dragstart",(event)=>{
-    let Info= event.target.src;
-    event.dataTransfer.setData("text",Info)
-    console.log(Info)
-})
 recuadro1.addEventListener("dragover", (event) => {
   event.preventDefault();
 });
